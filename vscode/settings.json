@@ -27,13 +27,14 @@
   "editor.suggest.insertMode": "replace",
   "editor.suggestFontSize": 14,
   "editor.wordWrap": "on",
-  "editor.scrollbar.horizontal": "auto",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.occurrencesHighlight": "off",
   "breadcrumbs.enabled": false,
   // ui
   "window.titleBarStyle": "native",
   "window.customTitleBarVisibility": "never",
   // APC
-  "apc.font.family": "Tokyo Night",
   "apc.menubar.compact": true,
   "apc.electron": {
     "titleBarStyle": "hiddenInset",
