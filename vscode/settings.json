@@ -28,6 +28,7 @@
   "editor.suggestFontSize": 14,
   "editor.wordWrap": "on",
   "editor.scrollbar.horizontal": "auto",
+  "breadcrumbs.enabled": false,
   // ui
   "window.titleBarStyle": "native",
   "window.customTitleBarVisibility": "never",
@@ -39,9 +40,6 @@
   },
   "apc.activityBar": {
     "position": "bottom"
-  },
-  "apc.header": {
-    "height": 22
   },
   "errorLens.fontStyleItalic": true,
   "everforest.italicKeywords": true,
