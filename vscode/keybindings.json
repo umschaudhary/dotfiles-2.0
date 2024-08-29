@@ -2,7 +2,7 @@
 // Go to definition
 [
   {
-    "command": "projectManager.listGitProjects#sideBarGit",
+    "command": "projectManager.listProjectsNewWindow",
     "key": "cmd+o"
   },
   {
@@ -104,8 +104,8 @@
     "when": "editorTextFocus && vim.active && vim.use<D-d> && !inDebugRepl"
   },
   {
-    "command": "workbench.action.splitEditor",
-    "key": "s",
+    "key": "s", // or any other keybinding you prefer
+    "command": "workbench.action.splitEditorRight",
     "when": "filesExplorerFocus && !inputFocus"
   },
   {
@@ -144,5 +144,21 @@
     "key": "shift+i",
     "command": "toggleexcludedfiles.toggle",
     "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "ctrl+shift+left",
+    "command": "workbench.action.increaseViewWidth"
+  },
+  {
+    "key": "ctrl+shift+right",
+    "command": "workbench.action.decreaseViewWidth"
+  },
+  {
+    "key": "ctrl+shift+up",
+    "command": "workbench.action.increaseViewHeight"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "workbench.action.decreaseViewHeight"
   }
 ]
