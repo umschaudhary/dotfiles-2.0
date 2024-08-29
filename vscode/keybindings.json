@@ -104,11 +104,6 @@
     "when": "editorTextFocus && vim.active && vim.use<D-d> && !inDebugRepl"
   },
   {
-    "key": "s", // or any other keybinding you prefer
-    "command": "workbench.action.splitEditorRight",
-    "when": "filesExplorerFocus && !inputFocus"
-  },
-  {
     "command": "list.select",
     "key": "o",
     "when": "filesExplorerFocus && !inputFocus"
@@ -160,5 +155,15 @@
   {
     "key": "ctrl+shift+down",
     "command": "workbench.action.decreaseViewHeight"
+  },
+  {
+    "key": "s",
+    "command": "explorer.openToSide",
+    "when": "explorerViewletFocus && foldersViewVisible && !inputFocus"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "-explorer.openToSide",
+    "when": "explorerViewletFocus && foldersViewVisible && !inputFocus"
   }
 ]
