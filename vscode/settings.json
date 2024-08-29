@@ -34,6 +34,8 @@
   // ui
   "window.titleBarStyle": "native",
   "window.customTitleBarVisibility": "never",
+  "workbench.statusBar.visible": false,
+  "explorer.compactFolders": false,
   // APC
   "apc.menubar.compact": true,
   "apc.electron": {
