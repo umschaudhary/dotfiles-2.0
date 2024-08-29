@@ -1,6 +1,5 @@
 // Place your key bindings in this file to override the defaults
 // Go to definition
-
 [
   {
     "command": "projectManager.listGitProjects#sideBarGit",
@@ -11,7 +10,6 @@
     "command": "workbench.action.focusLeftGroup",
     "when": "editorTextFocus && vim.mode != 'Insert'"
   },
-
   {
     "key": "ctrl+f",
     "command": "filesExplorer.findInFolder",
@@ -27,7 +25,6 @@
     "command": "workbench.view.explorer",
     "when": "inputFocus && searchViewletVisible"
   },
-
   {
     "key": "ctrl+l",
     "command": "workbench.action.focusRightGroup",
@@ -48,7 +45,6 @@
     "command": "workbench.action.focusActiveEditorGroup",
     "when": "explorerViewletVisible && !editorFocus"
   },
-
   {
     "command": "explorer.newFile",
     "key": "a",
@@ -59,7 +55,6 @@
     "command": "-explorer.renameFile",
     "when": "explorerViewletFocus && explorerItemContext"
   },
-
   {
     "command": "renameFile",
     "key": "r",
@@ -113,13 +108,11 @@
     "key": "s",
     "when": "filesExplorerFocus && !inputFocus"
   },
-
   {
     "command": "list.select",
     "key": "o",
     "when": "filesExplorerFocus && !inputFocus"
   },
-
   {
     "command": "-workbench.action.splitEditor",
     "key": "cmd+\\"
@@ -146,5 +139,10 @@
     "key": "ctrl+shift+p",
     "command": "projectManager.listProjects",
     "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+i",
+    "command": "toggleexcludedfiles.toggle",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
   }
 ]
