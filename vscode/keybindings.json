@@ -1,0 +1,150 @@
+// Place your key bindings in this file to override the defaults
+// Go to definition
+
+[
+  {
+    "command": "projectManager.listGitProjects#sideBarGit",
+    "key": "cmd+o"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.focusLeftGroup",
+    "when": "editorTextFocus && vim.mode != 'Insert'"
+  },
+
+  {
+    "key": "ctrl+f",
+    "command": "filesExplorer.findInFolder",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "/",
+    "command": "workbench.action.findInFiles",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "escape",
+    "command": "workbench.view.explorer",
+    "when": "inputFocus && searchViewletVisible"
+  },
+
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.focusRightGroup",
+    "when": "editorTextFocus && vim.mode != 'Insert'"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "sideBarFocus"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "workbench.action.focusSideBar",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "explorerViewletVisible && !editorFocus"
+  },
+
+  {
+    "command": "explorer.newFile",
+    "key": "a",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "enter",
+    "command": "-explorer.renameFile",
+    "when": "explorerViewletFocus && explorerItemContext"
+  },
+
+  {
+    "command": "renameFile",
+    "key": "r",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "filesExplorer.copy",
+    "key": "c",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "filesExplorer.paste",
+    "key": "p",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "deleteFile",
+    "key": "d",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "key": "ctrl+n",
+    "when": "editorFocus"
+  },
+  {
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "key": "ctrl+n",
+    "when": "editorFocus"
+  },
+  {
+    "command": "-workbench.action.files.save",
+    "key": "cmd+s"
+  },
+  {
+    "command": "saveAll",
+    "key": "cmd+s"
+  },
+  {
+    "command": "-editor.action.addSelectionToNextFindMatch",
+    "key": "cmd+d",
+    "when": "editorFocus"
+  },
+  {
+    "command": "-extension.vim_cmd+d",
+    "key": "cmd+d",
+    "when": "editorTextFocus && vim.active && vim.use<D-d> && !inDebugRepl"
+  },
+  {
+    "command": "workbench.action.splitEditor",
+    "key": "s",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+
+  {
+    "command": "list.select",
+    "key": "o",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+
+  {
+    "command": "-workbench.action.splitEditor",
+    "key": "cmd+\\"
+  },
+  {
+    "command": "-interactiveEditor.unstash",
+    "key": "cmd+z",
+    "when": "interactiveEditorHasStashedSession && !editorReadonly"
+  },
+  {
+    "command": "workbench.action.toggleZenMode",
+    "key": "cmd+z"
+  },
+  {
+    "command": "-workbench.action.toggleZenMode",
+    "key": "cmd+k z"
+  },
+  {
+    "command": "workbench.action.terminal.toggleTerminal",
+    "key": "ctrl+`",
+    "when": "terminal.active"
+  },
+  {
+    "key": "ctrl+shift+p",
+    "command": "projectManager.listProjects",
+    "when": "editorTextFocus"
+  }
+]
